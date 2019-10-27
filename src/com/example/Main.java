@@ -49,7 +49,7 @@ public class Main {
             // Load our keystore, private key and public key/certificate
 
             String keyStoreType = "PKCS12";
-            String keyStorePassword = "changeit";
+            String keyStorePassword = "secretpass";
 
             KeyStore keyStore = KeyStore.getInstance(keyStoreType);
             char[] password = keyStorePassword.toCharArray();
